@@ -12,6 +12,6 @@ public class ListingsController : Controller
 
     public IActionResult CreateListing() 
     {
-        return Ok("This is Listings/CreateListings");
+        return Ok("This is Listings/createListings");
     }
 }
