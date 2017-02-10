@@ -6,8 +6,8 @@ public class MyAccountController : Controller
     [Route("MyAccount")]
     public IActionResult Index()
     {
-        return Ok("This is the index of the MyAccountController");
-        //return View(); 
+        //return Ok("This is the index of the MyAccountController");
+        return View(); 
     }
     [Route("MyAccount/Listings")] 
     public IActionResult MyListings() 

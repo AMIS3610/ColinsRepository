@@ -7,8 +7,8 @@ public class LoginController : Controller
    
     public IActionResult Index()
     {
-            return Ok("This is the index of the LoginController");         
-            //return View(); 
+            //return Ok("This is the index of the LoginController");         
+            return View(); 
     }
 
     public IActionResult Register() 
